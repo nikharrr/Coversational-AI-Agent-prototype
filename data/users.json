@@ -1,0 +1,37 @@
+[
+  {
+    "id": "U001",
+    "name": "Rahul",
+    "age": 25,
+    "location": "Pune",
+    "preferences": ["casual wear", "fitness", "travel accessories"]
+  },
+  {
+    "id": "U002",
+    "name": "Aisha",
+    "age": 29,
+    "location": "Mumbai",
+    "preferences": ["wedding outfits", "clean beauty", "home decor"]
+  },
+  {
+    "id": "U003",
+    "name": "Neha",
+    "age": 34,
+    "location": "Bengaluru",
+    "preferences": ["wellness foods", "minimal home accessories", "skincare"]
+  },
+  {
+    "id": "U004",
+    "name": "Arjun",
+    "age": 31,
+    "location": "Delhi",
+    "preferences": ["gadgets", "office essentials", "smart casual clothing"]
+  },
+  {
+    "id": "U005",
+    "name": "Meera",
+    "age": 27,
+    "location": "Goa",
+    "preferences": ["beachwear", "resort style", "sun care", "gifting"]
+  }
+]

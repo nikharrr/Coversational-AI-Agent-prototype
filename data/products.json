@@ -1,0 +1,580 @@
+[
+  {
+    "id": "P001",
+    "name": "Pastel Cotton Kurta",
+    "category": "Clothing",
+    "description": "Lightweight cotton kurta suitable for summer weddings and humid coastal evenings.",
+    "price": 1499,
+    "attributes": {
+      "material": "cotton",
+      "occasion": "wedding",
+      "color": "pastel mint",
+      "style": "ethnic"
+    },
+    "tags": ["summer", "breathable", "wedding", "beach", "kurta"]
+  },
+  {
+    "id": "P002",
+    "name": "Ivory Linen Bandhgala",
+    "category": "Clothing",
+    "description": "Tailored linen bandhgala with a relaxed silhouette for destination celebrations.",
+    "price": 3299,
+    "attributes": {
+      "material": "linen",
+      "occasion": "wedding",
+      "color": "ivory",
+      "style": "formal"
+    },
+    "tags": ["destination wedding", "linen", "breathable", "formal"]
+  },
+  {
+    "id": "P003",
+    "name": "Terracotta Handblock Saree",
+    "category": "Clothing",
+    "description": "Soft modal saree with handblock print and an easy drape for festive day events.",
+    "price": 2899,
+    "attributes": {
+      "material": "modal",
+      "occasion": "festive",
+      "color": "terracotta",
+      "style": "artisan"
+    },
+    "tags": ["saree", "festive", "lightweight", "day event"]
+  },
+  {
+    "id": "P004",
+    "name": "Charcoal Performance Polo",
+    "category": "Clothing",
+    "description": "Moisture-wicking polo shirt designed for travel, errands, and casual workdays.",
+    "price": 1199,
+    "attributes": {
+      "material": "poly-blend",
+      "occasion": "casual",
+      "color": "charcoal",
+      "style": "athleisure"
+    },
+    "tags": ["casual wear", "travel", "quick dry", "minimal"]
+  },
+  {
+    "id": "P005",
+    "name": "Sea Blue Resort Shirt",
+    "category": "Clothing",
+    "description": "Relaxed resort shirt in breathable viscose with a breezy camp collar.",
+    "price": 1399,
+    "attributes": {
+      "material": "viscose",
+      "occasion": "vacation",
+      "color": "sea blue",
+      "style": "relaxed"
+    },
+    "tags": ["beach", "vacation", "lightweight", "shirt"]
+  },
+  {
+    "id": "P006",
+    "name": "Olive Utility Joggers",
+    "category": "Clothing",
+    "description": "Stretch twill joggers with multiple pockets for active weekends.",
+    "price": 1699,
+    "attributes": {
+      "material": "twill",
+      "occasion": "casual",
+      "color": "olive",
+      "style": "utility"
+    },
+    "tags": ["streetwear", "weekend", "comfort", "travel"]
+  },
+  {
+    "id": "P007",
+    "name": "Rose Gold Silk Blend Dupatta",
+    "category": "Clothing",
+    "description": "Shimmering silk blend dupatta that elevates simple festive outfits.",
+    "price": 999,
+    "attributes": {
+      "material": "silk blend",
+      "occasion": "festive",
+      "color": "rose gold",
+      "style": "elegant"
+    },
+    "tags": ["festive", "occasionwear", "accessory", "ethnic"]
+  },
+  {
+    "id": "P008",
+    "name": "Cloud White Sneakers",
+    "category": "Clothing",
+    "description": "Clean low-top sneakers with cushioned insoles for all-day city walks.",
+    "price": 2499,
+    "attributes": {
+      "material": "synthetic leather",
+      "occasion": "casual",
+      "color": "white",
+      "style": "minimal"
+    },
+    "tags": ["sneakers", "everyday", "comfort", "walking"]
+  },
+  {
+    "id": "P009",
+    "name": "Midnight Running Tee",
+    "category": "Clothing",
+    "description": "Ultra-light running tee with mesh ventilation for humid workouts.",
+    "price": 899,
+    "attributes": {
+      "material": "performance knit",
+      "occasion": "fitness",
+      "color": "midnight navy",
+      "style": "sport"
+    },
+    "tags": ["fitness", "breathable", "running", "quick dry"]
+  },
+  {
+    "id": "P010",
+    "name": "Sand Beige Chinos",
+    "category": "Clothing",
+    "description": "Smart-casual chinos with a tapered fit that pair easily with shirts or kurtas.",
+    "price": 1799,
+    "attributes": {
+      "material": "cotton stretch",
+      "occasion": "smart casual",
+      "color": "sand beige",
+      "style": "classic"
+    },
+    "tags": ["office casual", "versatile", "neutral", "travel"]
+  },
+  {
+    "id": "P011",
+    "name": "Stoneground Peanut Butter",
+    "category": "Food",
+    "description": "Natural peanut butter with no added sugar, ideal for smoothies and toast.",
+    "price": 349,
+    "attributes": {
+      "diet": "high protein",
+      "flavor": "classic roasted",
+      "brand": "NutriFarm"
+    },
+    "tags": ["fitness", "breakfast", "protein", "natural"]
+  },
+  {
+    "id": "P012",
+    "name": "Millet Energy Mix",
+    "category": "Food",
+    "description": "Dry snack mix of puffed millet, seeds, and curry leaves for guilt-free munching.",
+    "price": 225,
+    "attributes": {
+      "diet": "gluten free",
+      "flavor": "savory",
+      "brand": "Healthy Bites"
+    },
+    "tags": ["snack", "gluten free", "light", "travel"]
+  },
+  {
+    "id": "P013",
+    "name": "Artisan Dark Chocolate Box",
+    "category": "Food",
+    "description": "Assorted 70 percent dark chocolate gift box with sea salt and orange peel notes.",
+    "price": 799,
+    "attributes": {
+      "diet": "vegetarian",
+      "flavor": "dark chocolate",
+      "brand": "Cocoa Craft"
+    },
+    "tags": ["gift", "premium", "dessert", "festive"]
+  },
+  {
+    "id": "P014",
+    "name": "Cold Brew Coffee Concentrate",
+    "category": "Food",
+    "description": "Smooth cold brew concentrate for quick iced coffees and late-night study sessions.",
+    "price": 499,
+    "attributes": {
+      "diet": "vegan",
+      "flavor": "coffee",
+      "brand": "Bean Current"
+    },
+    "tags": ["coffee", "summer", "beverage", "cafe style"]
+  },
+  {
+    "id": "P015",
+    "name": "Himalayan Herbal Tea Sampler",
+    "category": "Food",
+    "description": "Mixed box of chamomile, tulsi, and lemongrass infusions for relaxing evenings.",
+    "price": 399,
+    "attributes": {
+      "diet": "vegan",
+      "flavor": "herbal",
+      "brand": "Leaf & Calm"
+    },
+    "tags": ["tea", "wellness", "calming", "giftable"]
+  },
+  {
+    "id": "P016",
+    "name": "Protein Granola Clusters",
+    "category": "Food",
+    "description": "Crunchy granola with almonds, pumpkin seeds, and whey crisps for quick breakfasts.",
+    "price": 450,
+    "attributes": {
+      "diet": "high protein",
+      "flavor": "honey almond",
+      "brand": "Rise Pantry"
+    },
+    "tags": ["breakfast", "fitness", "protein", "crunchy"]
+  },
+  {
+    "id": "P017",
+    "name": "Gourmet Pasta Kit",
+    "category": "Food",
+    "description": "Durum wheat pasta with basil pesto and chili flakes for easy date-night dinners.",
+    "price": 650,
+    "attributes": {
+      "diet": "vegetarian",
+      "flavor": "basil pesto",
+      "brand": "Casa Pantry"
+    },
+    "tags": ["dinner", "gift", "easy cook", "premium"]
+  },
+  {
+    "id": "P018",
+    "name": "Mango Chili Trail Bites",
+    "category": "Food",
+    "description": "Sweet-spicy dried mango and nut bites for road trips and work breaks.",
+    "price": 275,
+    "attributes": {
+      "diet": "vegan",
+      "flavor": "mango chili",
+      "brand": "TrailHouse"
+    },
+    "tags": ["travel snack", "sweet spicy", "road trip", "vegan"]
+  },
+  {
+    "id": "P019",
+    "name": "Sourdough Starter Kit",
+    "category": "Food",
+    "description": "Beginner-friendly kit with dehydrated starter, flour blend, and recipe guide.",
+    "price": 999,
+    "attributes": {
+      "diet": "vegetarian",
+      "flavor": "artisan bread",
+      "brand": "Bake Ritual"
+    },
+    "tags": ["baking", "starter kit", "home chef", "gift"]
+  },
+  {
+    "id": "P020",
+    "name": "Vegan Berry Jam Trio",
+    "category": "Food",
+    "description": "Small-batch strawberry, blueberry, and mixed berry jams with low sugar.",
+    "price": 540,
+    "attributes": {
+      "diet": "vegan",
+      "flavor": "berry",
+      "brand": "Orchard Jar"
+    },
+    "tags": ["breakfast", "spread", "gift set", "low sugar"]
+  },
+  {
+    "id": "P021",
+    "name": "Textured Ceramic Vase",
+    "category": "Home Accessories",
+    "description": "Matte ceramic vase with a sculpted surface for dried stems or statement shelves.",
+    "price": 1299,
+    "attributes": {
+      "material": "ceramic",
+      "color": "sand",
+      "style": "modern organic",
+      "brand": "NestForm"
+    },
+    "tags": ["decor", "minimal", "living room", "gift"]
+  },
+  {
+    "id": "P022",
+    "name": "Indigo Block Print Cushion Cover Set",
+    "category": "Home Accessories",
+    "description": "Pair of cotton cushion covers with handcrafted block motifs for cozy seating corners.",
+    "price": 899,
+    "attributes": {
+      "material": "cotton",
+      "color": "indigo",
+      "style": "artisan",
+      "brand": "Home Loom"
+    },
+    "tags": ["sofa", "boho", "handcrafted", "cotton"]
+  },
+  {
+    "id": "P023",
+    "name": "Bamboo Laundry Basket",
+    "category": "Home Accessories",
+    "description": "Foldable bamboo hamper with a washable liner for neat compact homes.",
+    "price": 1599,
+    "attributes": {
+      "material": "bamboo",
+      "color": "natural",
+      "style": "functional",
+      "brand": "Tidy Habitat"
+    },
+    "tags": ["storage", "laundry", "small space", "eco"]
+  },
+  {
+    "id": "P024",
+    "name": "Amber Scented Candle Duo",
+    "category": "Home Accessories",
+    "description": "Soy wax candle set with amber and vanilla notes for warm evening ambience.",
+    "price": 699,
+    "attributes": {
+      "material": "soy wax",
+      "color": "amber",
+      "style": "cozy",
+      "brand": "Glow Nook"
+    },
+    "tags": ["candle", "gift", "home fragrance", "relaxing"]
+  },
+  {
+    "id": "P025",
+    "name": "Arch Mirror Tray",
+    "category": "Home Accessories",
+    "description": "Gold-rimmed mirrored tray for perfumes, candles, or entryway essentials.",
+    "price": 1099,
+    "attributes": {
+      "material": "metal and glass",
+      "color": "gold",
+      "style": "glam",
+      "brand": "Urban Mantel"
+    },
+    "tags": ["vanity", "decor", "organizer", "giftable"]
+  },
+  {
+    "id": "P026",
+    "name": "Woven Jute Floor Rug",
+    "category": "Home Accessories",
+    "description": "Durable jute rug that adds texture to entryways, balconies, and reading corners.",
+    "price": 2199,
+    "attributes": {
+      "material": "jute",
+      "color": "earth beige",
+      "style": "natural",
+      "brand": "EarthNest"
+    },
+    "tags": ["rug", "balcony", "texture", "eco"]
+  },
+  {
+    "id": "P027",
+    "name": "Glass Pantry Jar Set",
+    "category": "Home Accessories",
+    "description": "Set of airtight glass jars with acacia lids for organized kitchen shelves.",
+    "price": 1799,
+    "attributes": {
+      "material": "glass",
+      "color": "clear",
+      "style": "organized",
+      "brand": "StoreWell"
+    },
+    "tags": ["kitchen", "storage", "minimal", "airtight"]
+  },
+  {
+    "id": "P028",
+    "name": "Brass Desk Clock",
+    "category": "Home Accessories",
+    "description": "Compact analog desk clock with a brushed brass frame for study tables.",
+    "price": 1499,
+    "attributes": {
+      "material": "brass",
+      "color": "brushed gold",
+      "style": "vintage modern",
+      "brand": "Hour Loft"
+    },
+    "tags": ["desk", "study", "gift", "classic"]
+  },
+  {
+    "id": "P029",
+    "name": "Portable Blender Bottle",
+    "category": "Electronics",
+    "description": "USB rechargeable blender bottle for shakes, smoothies, and post-workout drinks.",
+    "price": 1999,
+    "attributes": {
+      "brand": "BlendGo",
+      "color": "mint",
+      "usage": "fitness",
+      "battery": "USB rechargeable"
+    },
+    "tags": ["portable", "fitness", "smoothie", "travel"]
+  },
+  {
+    "id": "P030",
+    "name": "Noise Canceling Earbuds",
+    "category": "Electronics",
+    "description": "Compact true wireless earbuds with active noise canceling and clear call quality.",
+    "price": 4999,
+    "attributes": {
+      "brand": "SonicLeaf",
+      "color": "graphite",
+      "usage": "commute",
+      "battery": "28 hours"
+    },
+    "tags": ["audio", "work", "travel", "noise canceling"]
+  },
+  {
+    "id": "P031",
+    "name": "Smart Aroma Diffuser",
+    "category": "Electronics",
+    "description": "App-enabled diffuser with timer control and ambient lighting for bedrooms.",
+    "price": 2599,
+    "attributes": {
+      "brand": "Aeri",
+      "color": "white oak",
+      "usage": "wellness",
+      "battery": "plug-in"
+    },
+    "tags": ["home tech", "wellness", "relaxation", "smart home"]
+  },
+  {
+    "id": "P032",
+    "name": "4K Streaming Stick",
+    "category": "Electronics",
+    "description": "Pocket-sized streaming stick with voice remote for binge nights and travel TVs.",
+    "price": 3499,
+    "attributes": {
+      "brand": "ViewCast",
+      "color": "black",
+      "usage": "entertainment",
+      "battery": "AAA remote"
+    },
+    "tags": ["streaming", "tv", "travel", "voice control"]
+  },
+  {
+    "id": "P033",
+    "name": "Ergonomic Wireless Mouse",
+    "category": "Electronics",
+    "description": "Quiet-click ergonomic mouse with dual-device support for hybrid work setups.",
+    "price": 1799,
+    "attributes": {
+      "brand": "WorkWave",
+      "color": "slate",
+      "usage": "productivity",
+      "battery": "AA battery"
+    },
+    "tags": ["office", "laptop accessory", "wireless", "ergonomic"]
+  },
+  {
+    "id": "P034",
+    "name": "Mini Projector",
+    "category": "Electronics",
+    "description": "Portable projector for movie nights, hostel rooms, and casual presentations.",
+    "price": 6999,
+    "attributes": {
+      "brand": "LumaBox",
+      "color": "silver",
+      "usage": "entertainment",
+      "battery": "plug-in"
+    },
+    "tags": ["movie night", "portable", "presentation", "home"]
+  },
+  {
+    "id": "P035",
+    "name": "Fitness Smart Band",
+    "category": "Electronics",
+    "description": "Water-resistant smart band with sleep tracking, heart rate monitoring, and long battery life.",
+    "price": 2999,
+    "attributes": {
+      "brand": "PulseLoop",
+      "color": "coral",
+      "usage": "fitness",
+      "battery": "10 days"
+    },
+    "tags": ["fitness", "wearable", "sleep tracking", "health"]
+  },
+  {
+    "id": "P036",
+    "name": "Compact Power Bank",
+    "category": "Electronics",
+    "description": "Slim 10000mAh power bank with fast charging for daily commutes and travel days.",
+    "price": 1699,
+    "attributes": {
+      "brand": "VoltNest",
+      "color": "midnight black",
+      "usage": "travel",
+      "battery": "10000mAh"
+    },
+    "tags": ["charging", "travel", "commute", "portable"]
+  },
+  {
+    "id": "P037",
+    "name": "Vitamin C Glow Serum",
+    "category": "Beauty",
+    "description": "Brightening serum with vitamin C and ferulic acid for dull, uneven skin.",
+    "price": 899,
+    "attributes": {
+      "brand": "Luma Skin",
+      "skin_type": "all skin types",
+      "concern": "dullness",
+      "texture": "light serum"
+    },
+    "tags": ["skincare", "brightening", "daily use", "glow"]
+  },
+  {
+    "id": "P038",
+    "name": "Ceramide Barrier Cream",
+    "category": "Beauty",
+    "description": "Rich but non-greasy cream that supports the skin barrier and reduces dryness.",
+    "price": 749,
+    "attributes": {
+      "brand": "Derma Nest",
+      "skin_type": "dry skin",
+      "concern": "barrier repair",
+      "texture": "cream"
+    },
+    "tags": ["skincare", "moisturizer", "sensitive skin", "repair"]
+  },
+  {
+    "id": "P039",
+    "name": "Tinted Mineral Sunscreen SPF 50",
+    "category": "Beauty",
+    "description": "Lightweight mineral sunscreen with a natural tint suited for humid weather.",
+    "price": 999,
+    "attributes": {
+      "brand": "SunStory",
+      "skin_type": "combination skin",
+      "concern": "sun protection",
+      "texture": "fluid"
+    },
+    "tags": ["sunscreen", "humid weather", "daily wear", "travel"]
+  },
+  {
+    "id": "P040",
+    "name": "Rosewood Matte Lip Color",
+    "category": "Beauty",
+    "description": "Comfortable matte lipstick in a muted rosewood tone for work or weddings.",
+    "price": 599,
+    "attributes": {
+      "brand": "Velvet Muse",
+      "skin_type": "all skin types",
+      "concern": "long wear color",
+      "texture": "matte"
+    },
+    "tags": ["makeup", "wedding", "everyday glam", "long wear"]
+  },
+  {
+    "id": "P041",
+    "name": "Herbal Hair Fall Control Oil",
+    "category": "Beauty",
+    "description": "Lightweight scalp oil with bhringraj and rosemary for weekly hair care rituals.",
+    "price": 549,
+    "attributes": {
+      "brand": "Root Ritual",
+      "skin_type": "all scalp types",
+      "concern": "hair fall",
+      "texture": "light oil"
+    },
+    "tags": ["hair care", "weekly ritual", "herbal", "nourishing"]
+  },
+  {
+    "id": "P042",
+    "name": "Overnight Hydration Mask",
+    "category": "Beauty",
+    "description": "Gel sleeping mask that replenishes dehydrated skin and reduces morning tightness.",
+    "price": 849,
+    "attributes": {
+      "brand": "Moon Dew",
+      "skin_type": "dehydrated skin",
+      "concern": "hydration",
+      "texture": "gel"
+    },
+    "tags": ["night care", "hydration", "soothing", "skincare"]
+  }
+]

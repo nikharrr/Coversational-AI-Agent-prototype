@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atelier Assist</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark">A</div>
+        <div>
+          <p class="brand-name">Atelier Assist</p>
+          <p class="brand-sub">Personal shopping, made conversational</p>
+        </div>
+      </div>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#discover">Discover</a>
+        <a href="#assistant">Assistant</a>
+        <a href="/docs" target="_blank" rel="noreferrer">API Docs</a>
+      </nav>
+      <div class="profile-area">
+        <button id="profile-button" class="profile-button" type="button" aria-expanded="false" aria-controls="profile-menu">
+          <span id="profile-avatar" class="profile-avatar">A</span>
+          <span class="profile-copy">
+            <strong id="profile-name">Guest</strong>
+            <span id="profile-location">Loading...</span>
+          </span>
+        </button>
+        <div id="profile-menu" class="profile-menu hidden">
+          <div class="profile-menu-head">
+            <p class="eyebrow">Signed In</p>
+            <p class="profile-menu-title">Switch shopper</p>
+          </div>
+          <div id="profile-user-list" class="profile-user-list"></div>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Curated Discovery</p>
+        <h1>Find pieces, gifts, and everyday essentials with a shopping assistant that actually explains its picks.</h1>
+        <p class="lede">
+          Browse with natural language, ask follow-up questions, and move between different shopper profiles
+          to see how preferences shape recommendations.
+        </p>
+        <div class="hero-actions">
+          <a class="primary-link" href="#assistant">Start chatting</a>
+          <a class="ghost-link" href="#discover">Browse results</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <section id="discover" class="panel">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Discover</p>
+            <h2>Search the catalog</h2>
+          </div>
+          <button id="ingest-button" class="ghost-button" type="button">Re-ingest products</button>
+        </div>
+        <form id="search-form" class="stack">
+          <label class="field">
+            <span>What are you shopping for?</span>
+            <input id="search-query" name="query" placeholder="kurta for beach wedding" required>
+          </label>
+          <button class="primary-button" type="submit">Search</button>
+        </form>
+        <p id="search-feedback" class="muted"></p>
+        <div id="search-results" class="results"></div>
+      </section>
+
+      <section id="assistant" class="panel">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Concierge</p>
+            <h2>Chat with your assistant</h2>
+          </div>
+        </div>
+        <div id="chat-log" class="chat-log"></div>
+        <form id="chat-form" class="stack">
+          <label class="field">
+            <span>Tell us what you need</span>
+            <textarea id="chat-message" rows="4" placeholder="I need something for a beach wedding" required></textarea>
+          </label>
+          <button class="primary-button" type="submit">Send</button>
+        </form>
+      </section>
+    </section>
+  </main>
+
+  <template id="product-card-template">
+    <article class="product-card">
+      <div class="product-top">
+        <div>
+          <p class="category"></p>
+          <h3 class="product-name"></h3>
+        </div>
+        <span class="price"></span>
+      </div>
+      <p class="description"></p>
+      <p class="score"></p>
+      <div class="pill-row tags"></div>
+      <div class="pill-row attributes"></div>
+      <div class="actions">
+        <button class="secondary-button explain-button" type="button">Why this?</button>
+      </div>
+      <p class="explanation hidden"></p>
+    </article>
+  </template>
+
+  <template id="chat-entry-template">
+    <article class="chat-entry">
+      <p class="chat-role"></p>
+      <p class="chat-text"></p>
+      <div class="chat-recommendations"></div>
+    </article>
+  </template>
+
+  <script src="/static/site.js"></script>
+</body>
+</html>

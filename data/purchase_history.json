@@ -1,0 +1,107 @@
+[
+  {
+    "user_id": "U001",
+    "product_id": "P009",
+    "date": "2026-01-18",
+    "price": 899,
+    "category": "Clothing"
+  },
+  {
+    "user_id": "U001",
+    "product_id": "P011",
+    "date": "2026-02-02",
+    "price": 349,
+    "category": "Food"
+  },
+  {
+    "user_id": "U001",
+    "product_id": "P035",
+    "date": "2026-03-11",
+    "price": 2999,
+    "category": "Electronics"
+  },
+  {
+    "user_id": "U002",
+    "product_id": "P001",
+    "date": "2026-01-25",
+    "price": 1499,
+    "category": "Clothing"
+  },
+  {
+    "user_id": "U002",
+    "product_id": "P024",
+    "date": "2026-02-14",
+    "price": 699,
+    "category": "Home Accessories"
+  },
+  {
+    "user_id": "U002",
+    "product_id": "P040",
+    "date": "2026-03-01",
+    "price": 599,
+    "category": "Beauty"
+  },
+  {
+    "user_id": "U003",
+    "product_id": "P015",
+    "date": "2026-01-07",
+    "price": 399,
+    "category": "Food"
+  },
+  {
+    "user_id": "U003",
+    "product_id": "P021",
+    "date": "2026-02-19",
+    "price": 1299,
+    "category": "Home Accessories"
+  },
+  {
+    "user_id": "U003",
+    "product_id": "P038",
+    "date": "2026-03-08",
+    "price": 749,
+    "category": "Beauty"
+  },
+  {
+    "user_id": "U004",
+    "product_id": "P033",
+    "date": "2026-01-30",
+    "price": 1799,
+    "category": "Electronics"
+  },
+  {
+    "user_id": "U004",
+    "product_id": "P010",
+    "date": "2026-02-09",
+    "price": 1799,
+    "category": "Clothing"
+  },
+  {
+    "user_id": "U004",
+    "product_id": "P036",
+    "date": "2026-03-20",
+    "price": 1699,
+    "category": "Electronics"
+  },
+  {
+    "user_id": "U005",
+    "product_id": "P005",
+    "date": "2026-01-15",
+    "price": 1399,
+    "category": "Clothing"
+  },
+  {
+    "user_id": "U005",
+    "product_id": "P039",
+    "date": "2026-02-28",
+    "price": 999,
+    "category": "Beauty"
+  },
+  {
+    "user_id": "U005",
+    "product_id": "P013",
+    "date": "2026-03-26",
+    "price": 799,
+    "category": "Food"
+  }
+]
